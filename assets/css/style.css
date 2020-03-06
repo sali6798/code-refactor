@@ -66,6 +66,10 @@ footer h2 {
     font-size: 20px;
 }
 
+.seo {
+    color: #d9dcd6;
+}
+
 .hero {
     height: 800px;
     width: 100%;
@@ -73,6 +77,21 @@ footer h2 {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.section-headings {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.section-images {
+    max-height: 200px;
 }
 
 .float-left {
@@ -85,13 +104,20 @@ footer h2 {
     margin-left: 25px;
 }
 
-.section-headings {
-    margin-bottom: 20px;
-    font-size: 36px;
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
-.section-images {
-    max-height: 200px;
+.benefits > div{
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .benefits-headings {
@@ -103,30 +129,4 @@ footer h2 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-#seo {
-    color: #d9dcd6;
-}
-
-#content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-#benefits > div{
-    margin-bottom: 32px;
-    color: #ffffff;
 }
